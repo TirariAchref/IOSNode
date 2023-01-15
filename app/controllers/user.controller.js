@@ -340,7 +340,7 @@ exports.sendmaill = (req, res) => {
          
           auth: {
               user: 'medteckesprit@gmail.com',
-              pass: 'fjrbuxjeyswhsuqw'
+              pass: 'reoazobukqpdgcqt'
           },
        });
       
@@ -348,7 +348,7 @@ exports.sendmaill = (req, res) => {
        
       // send mail with defined transport object
       let info = await transporter.sendMail({
-          from: 'SOS Entrepreneur',
+          from: 'medteckesprit@gmail.com',
           to: req.body.email,
           subject: 'Verification account',
           text: req.body.code
